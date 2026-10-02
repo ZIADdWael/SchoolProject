@@ -11,13 +11,13 @@
 
         public string? DepartName { get; set; }
 
-        public GetStudentPaginatedListResponse(int studID,string? name,string? address,string?departmentName)
-        {
-            StudID= studID;
-            Name= name;
-            Address= address;
-            DepartName= departmentName;
+        //public GetStudentPaginatedListResponse(int studID,string? name,string? address,string?departmentName)
+        //{
+        //    StudID= studID;
+        //    Name= name;
+        //    Address= address;
+        //    DepartName= departmentName;
 
-        }
+        //}
     }
 }

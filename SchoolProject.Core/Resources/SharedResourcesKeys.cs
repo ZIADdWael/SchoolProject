@@ -11,5 +11,7 @@
         public const string NotEmpty = "NotEmpty";
         public const string IsExist = "IsExist";
         public const string IsNotExist = "IsNotExist";
+        public const string DepartmentIDNotExist = "DepartmentIDNotExist";
+        public const string DepartmentID = "DepartmentID";
     }
 }
