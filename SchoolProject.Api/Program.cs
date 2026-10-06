@@ -1,9 +1,12 @@
 
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Localization;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 using SchoolProject.Core;
 using SchoolProject.Core.MiddleWare;
+using SchoolProject.Data.Entites.Identity;
 using SchoolProject.infrustracture;
 using SchoolProject.infrustracture.DataBase;
 using SchoolProject.Service;
@@ -32,7 +35,7 @@ namespace SchoolProject.Api
 
             //Dependency Injection
 
-            builder.Services.AddInfructractureDependencies().AddCoreDependencies().AddModuleServiceDependencies();
+            builder.Services.AddInfructractureDependencies().AddCoreDependencies().AddModuleServiceDependencies().AddServiceRegisteration();
 
 
             #region Localization 
