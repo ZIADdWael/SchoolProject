@@ -34,5 +34,13 @@ namespace SchoolProject.Data.AppMetaData
             public const string Paginated = prefix + "Paginated";
 
         }
+        public static class UserRouting
+        {
+            public const string prefix = Role + "User/";
+           
+            public const string Create = prefix + "create";
+          
+
+        }
     }
 }

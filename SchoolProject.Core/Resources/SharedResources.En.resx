@@ -117,26 +117,26 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Deleted" xml:space="preserve">
-    <value>Deleted Successfully</value>
-  </data>
-  <data name="NotEmpty" xml:space="preserve">
-    <value>Must Not empty</value>
+  <data name="Required" xml:space="preserve">
+    <value>this field is required</value>
   </data>
   <data name="Notfound" xml:space="preserve">
     <value> object is Not found</value>
   </data>
-  <data name="Required" xml:space="preserve">
-    <value>this field is required</value>
+  <data name="Deleted" xml:space="preserve">
+    <value>Deleted Successfully</value>
   </data>
-  <data name="Success" xml:space="preserve">
-    <value>operation is done</value>
+  <data name="Created" xml:space="preserve">
+    <value> Created  Successfully</value>
   </data>
   <data name="Updated" xml:space="preserve">
     <value> Updated Successfully</value>
   </data>
-  <data name="Created" xml:space="preserve">
-    <value> Created  Successfully</value>
+  <data name="Success" xml:space="preserve">
+    <value>operation is done</value>
+  </data>
+  <data name="NotEmpty" xml:space="preserve">
+    <value>Must Not empty</value>
   </data>
   <data name="Name" xml:space="preserve">
     <value>Name</value>
@@ -146,5 +146,17 @@
   </data>
   <data name="DepartmentID" xml:space="preserve">
     <value>Department ID</value>
+  </data>
+  <data name="PasswordNotEqualConfirmPass" xml:space="preserve">
+    <value>Password and Confirm Password Not Equals</value>
+  </data>
+  <data name="EmailIsExist" xml:space="preserve">
+    <value>Email Is Already Exist</value>
+  </data>
+  <data name="UserNameIsExist" xml:space="preserve">
+    <value>Name Is Already Exist</value>
+  </data>
+  <data name="FaildToAddUser" xml:space="preserve">
+    <value>Failed To Add User</value>
   </data>
 </root>

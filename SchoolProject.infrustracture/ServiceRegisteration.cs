@@ -30,7 +30,7 @@ namespace SchoolProject.infrustracture
                 Options.User.AllowedUserNameCharacters =
                 "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-._@+";
                 Options.User.RequireUniqueEmail = true;
-                Options.SignIn.RequireConfirmedEmail = true;
+                Options.SignIn.RequireConfirmedEmail = false;
 
 
             })
