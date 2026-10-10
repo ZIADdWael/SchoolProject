@@ -1,17 +1,15 @@
 ﻿using AutoMapper;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SchoolProject.Core.Mapping.ApplicationUSerMapping
 {
-    public partial class ApplicationUserProfile:Profile
+    public partial class ApplicationUserProfile : Profile
     {
-        public ApplicationUserProfile() {
+        public ApplicationUserProfile()
+        {
 
             AddUserMap();
+            GetUserPaginatedMap();
+            GetUserByIdMap();
         }
     }
 }
